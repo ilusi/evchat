@@ -1,0 +1,71 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.chat-app input[type="text"] {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px;
+  border: 1px solid #999;
+  background: none #fff;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 20px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.chat-app button {
+  display: inline-block;
+  border: 1px solid #999;
+  background: none #eee;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 20px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.chat-app {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.chat-app .input-group {
+  display: flex;
+}
+
+.chat-app .input-group .input-label {
+  display: inline-block;
+  padding: 6px 10px 6px 0;
+}
+
+.chat-app .input-group input[type="text"] {
+  flex: 1;
+}
+
+.chat-app .message-pane {
+  margin: 13px 0;
+  border: 1px solid #999;
+  padding: 10px;
+  overflow: auto;
+}
+
+.chat-app .message-pane .empty-state {
+  color: #999;
+  text-align: center;
+  font-style: italic;
+}
+
+.chat-app .message-input input[type="text"] {
+  border-right: 0;
+}
